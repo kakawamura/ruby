@@ -18,7 +18,7 @@ end
 #generate 10 random numbers for testing
 randomArray = Array.new
 for i in 1..10 do
-  randomArray.push Random.rand(1..100)w
+  randomArray.push Random.rand(1..100)
 end
 
 puts "Unsorted array: " + randomArray.to_s
